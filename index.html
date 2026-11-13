@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080812">
+  <title>NEXORA AI - Create Anything</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="background">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+
+  <header class="navbar">
+    <div class="logo">NEXORA<span>AI.</span></div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#generator">Generator</a>
+      <a href="#features">Features</a>
+    </nav>
+
+    <button class="login-btn">Get Started</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+
+      <div class="badge">
+        <span class="pulse"></span>
+        THE NEXT GENERATION OF CREATIVITY
+      </div>
+
+      <h1>
+        Imagine It.<br>
+        <span>Create It.</span>
+      </h1>
+
+      <p class="hero-text">
+        Turn your imagination into extraordinary visuals
+        using the power of artificial intelligence.
+      </p>
+
+      <div class="generator-card" id="generator">
+
+        <div class="card-heading">
+          <span>✦Hamza AI </span>
+          <span class="online">● ONLINE</span>
+        </div>
+
+        <textarea id="prompt"
+          placeholder="Describe anything you want to create..."></textarea>
+
+        <div class="options">
+          <select id="style">
+            <option value="Realistic">Realistic</option>
+            <option value="3D Art">3D Art</option>
+            <option value="Anime">Anime</option>
+            <option value="Digital Art">Digital Art</option>
+            <option value="Cinematic">Cinematic</option>
+          </select>
+
+          <select id="ratio">
+            <option value="1:1">Square 1:1</option>
+            <option value="16:9">Landscape 16:9</option>
+            <option value="9:16">Portrait 9:16</option>
+          </select>
+        </div>
+
+        <button class="generate-btn" id="generate">
+          <span>✦</span> Generate Image
+        </button>
+
+        <div class="result" id="result">
+          <div class="placeholder">
+            <div class="placeholder-icon">✧</div>
+            <p>Your imagination starts here.</p>
+            <small>Your generated image will appear here.</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <span>POWERFUL POSSIBILITIES</span>
+        <h2>Create Without Limits.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3>AI Image Creation</h3>
+          <p>Transform text descriptions into beautiful images.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">◈</div>
+          <h3>Creative Styles</h3>
+          <p>Explore realistic, 3D, cinematic and artistic styles.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant Creativity</h3>
+          <p>Bring your ideas to life through an intuitive interface.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">NEXORA<span>AI.</span></div>
+    <p>© 2026 NEXORA AI. Built for imagination.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
